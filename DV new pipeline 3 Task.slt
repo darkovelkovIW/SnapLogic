@@ -1,0 +1,31 @@
+{
+    "job_class": "PipelineJob",
+    "job_name": "DV new pipeline 3 Task",
+    "note": "",
+    "parameters": {
+        "enabled": true,
+        "execution_timeout": null,
+        "include_external_urls": true,
+        "job_alias": "",
+        "job_type": "standard",
+        "llfeed_token": null,
+        "max_failures": 10,
+        "max_in_flight": 3,
+        "notification": {
+            "recipients": null
+        },
+        "pipeline_path": "DV new pipeline 3",
+        "snaplex_path": "Cloud",
+        "watchdog": {
+            "instances": 2,
+            "per": "PLEX"
+        }
+    },
+    "schedule": {
+        "always_on": true
+    },
+    "trigger": {
+        "always_on": true
+    },
+    "trigger_type": "ScheduleTrigger"
+}

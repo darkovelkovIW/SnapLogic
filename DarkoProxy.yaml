@@ -1,0 +1,30 @@
+swagger: '2.0'
+info:
+  title: DarkoVelkov
+  description: ''
+  version: '1.0'
+host: elastic.snaplogic.com:443
+basePath: /api/1/rest/slsched/feed/Partners/Interworks/DarkoVelkov
+schemes:
+- https
+- 
+paths:
+  /Test1Task:
+    get:
+      produces:
+      - application/json
+      responses:
+        '200':
+          description: OK
+  /Test2Task:
+    get:
+      produces:
+      - application/json
+      responses:
+        '200':
+          description: OK
+securityDefinitions:
+  basicAuth:
+    type: basic
+security:
+- basicAuth: []

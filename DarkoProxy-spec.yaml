@@ -1,0 +1,30 @@
+basePath: /DarkoProxy/Partners/Interworks/DarkoVelkov
+host: prod-partners-apim.snaplogic.io
+info:
+  description: ''
+  title: DarkoProxy
+  version: '1.0'
+paths:
+  /Test1Task:
+    get:
+      produces:
+      - application/json
+      responses:
+        '200':
+          description: OK
+  /Test2Task:
+    get:
+      produces:
+      - application/json
+      responses:
+        '200':
+          description: OK
+schemes:
+- https
+- null
+security:
+- basicAuth: []
+securityDefinitions:
+  basicAuth:
+    type: basic
+swagger: '2.0'

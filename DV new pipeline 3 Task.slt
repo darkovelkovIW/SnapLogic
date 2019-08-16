@@ -15,7 +15,7 @@
             "recipients": null
         },
         "pipeline_path": "DV new pipeline 3",
-        "snaplex_path": "Cloud",
+        "snaplex_path": null,
         "watchdog": {
             "instances": 2,
             "per": "PLEX"
